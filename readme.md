@@ -1,5 +1,7 @@
 # 图像检索系统
 
+[![Generic badge](https://img.shields.io/badge/Open%20Source%3f-Yes-green.svg)](https://shields.io/)
+
 ![framework](img/framework.svg)
 
 这是一个非常缝合的图像——文本检索框架，核心是通过对图像内容产生描述，再使用描述文本的相似性计算符合条件的图片。优点有：
@@ -90,3 +92,10 @@ a bus in the street .
 ```
 
 ![exam1](img/example1.png)
+
+## 其他
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=aldenhovel/image-retrieval&type=Date)](https://star-history.com/#aldenhovel/image-retrieval&Date)
+
