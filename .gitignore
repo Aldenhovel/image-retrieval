@@ -1,0 +1,5 @@
+models/noamrot/*
+models/cardiffnlp/*
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
