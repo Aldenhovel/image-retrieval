@@ -1,5 +1,4 @@
 from InstructorEmbedding import INSTRUCTOR
-from sklearn.metrics.pairwise import cosine_similarity
 
 import torch.nn as nn
 
