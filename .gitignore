@@ -1,5 +1,5 @@
-models/noamrot/*
-models/cardiffnlp/*
+models/noamrot/FuseCap/pytorch_model.bin
+models/cardiffnlp/tweet-topic-21-multi/pytorch_model.bin
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
