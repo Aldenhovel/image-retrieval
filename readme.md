@@ -4,6 +4,15 @@
 
 ![framework](img/framework.svg)
 
+<h4 align="center">
+    <p>
+        <b>中文</b> |
+        <a href="https://github.com/Aldenhovel/image-retrieval/blob/main/readme_en.md">English</a> 
+    <p>
+</h4>
+
+## 简介
+
 这是一个非常缝合的图像——文本检索框架，核心是通过对图像内容产生描述，再使用描述文本的相似性计算符合条件的图片。优点有：
 
 - 即开即用，各个网络之间无需训练即可搭配使用。
@@ -90,6 +99,34 @@ a bus in the street .
 ```
 
 ![exam1](img/example1.png)
+
+
+
+## 实验数据
+
+- 在Filckr8k上的图像检索实验
+
+  |                               |  @1   |  @5   |  @20  | avg/1k |
+  | :---------------------------: | :---: | :---: | :---: | :----: |
+  |      YOLOv8 + Instructor      | 14.9% | 33.6% | 52.4% | 66.95  |
+  |     FuseCap + Instructor      | 39.7% | 67.3% | 87.3% | 12.53  |
+  | FuseCap + YOLOv8 + Instructor | 43.2% | 69.6% | 89.2% | 10.76  |
+
+- 在Flickr30k上的图像检索实验
+
+  |                               |  @1   |  @5   |  @20  | avg/1k |
+  | :---------------------------: | :---: | :---: | :---: | :----: |
+  |      YOLOv8 + Instructor      | 15.4% | 31.6% | 50.7% | 85.34  |
+  |     FuseCap + Instructor      | 42.8% | 70.2% | 86.3% | 16.27  |
+  | FuseCap + YOLOv8 + Instructor | 47.6% | 74.0% | 89.0% | 11.54  |
+
+- 在MSCOCO上的图像检索实验
+
+  |                               |  @1   |  @5   |  @20  | avg/1k |
+  | :---------------------------: | :---: | :---: | :---: | :----: |
+  |      YOLOv8 + Instructor      | 12.7% | 25.4% | 45.8% | 120.35 |
+  |     FuseCap + Instructor      | 34.1% | 59.4% | 80.4% | 15.03  |
+  | FuseCap + YOLOv8 + Instructor | 37.9% | 63.7% | 83.7% | 12.88  |
 
 
 
