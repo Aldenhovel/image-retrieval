@@ -2,7 +2,7 @@
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 
-![framework](D:\gitrepo\image-retrieval\img\framework.svg)
+![framework](img/framework.svg)
 
 <h4 align="center">
     <p>
@@ -92,13 +92,13 @@ Due to the file size limit, you also need to manually move the HuggingFace model
 a plane flying in the sky .
 ```
 
-![exam0](D:\gitrepo\image-retrieval\img\example0.png)
+![exam0](img/example0.png)
 
 ```
 a bus in the street .
 ```
 
-![exam1](D:\gitrepo\image-retrieval\img\example1.png)
+![exam1](img/example1.png)
 
 
 
