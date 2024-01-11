@@ -92,13 +92,13 @@ Due to the file size limit, you also need to manually move the HuggingFace model
 a plane flying in the sky .
 ```
 
-![exam0](D:\gitrepo\image-retrieval\img\example0.png)
+![exam0](img/example0.png)
 
 ```
 a bus in the street .
 ```
 
-![exam1](D:\gitrepo\image-retrieval\img\example1.png)
+![exam1](img/example1.png)
 
 
 
