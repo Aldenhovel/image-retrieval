@@ -60,12 +60,10 @@ ultralytics==8.0.228
 tqdm==4.66.1
 ```
 
-在`models/`中还需要手动新建`cardiffnlp/tweet-topic-21-multi/`和`noamrot/FuseCap/`两个目录，并从HF/HF-mirror的仓库中下载模型配置文件：
+由于文件大小限制，还需要手动将HuggingFace的模型`bin`文件下载移动到`cardiffnlp/tweet-topic-21-multi/`和`noamrot/FuseCap/`两个对应目录：
 
-- [Tweet-Topic-21](https://hf-mirror.com/cardiffnlp/tweet-topic-21-multi/tree/main)
-- [FuseCap](https://hf-mirror.com/noamrot/FuseCap_Image_Captioning/tree/main)
-
-将`config.json` `pytorch_model.bin` `tokenizer.json` 等文件移动到对应目录下。
+- [tweet-topic-21-multi](https://hf-mirror.com/cardiffnlp/tweet-topic-21-multi/blob/main/pytorch_model.bin)
+- [fusecap](https://hf-mirror.com/noamrot/FuseCap_Image_Captioning/blob/main/pytorch_model.bin)
 
 
 
@@ -93,7 +91,7 @@ a bus in the street .
 
 ![exam1](img/example1.png)
 
-## 其他
+
 
 ## Star History
 
